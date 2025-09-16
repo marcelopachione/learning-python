@@ -1,0 +1,1 @@
+pyenv uninstall -f 3.12.3
