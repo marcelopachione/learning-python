@@ -35,6 +35,12 @@ df['Available'] = True
 df
 
 # %%
+df = df.rename(columns={
+    'Available': 'isAvailable'
+})
+df
+
+# %%
 # Seleciona a linha de índice (rótulo) 2 do DataFrame e retorna essa linha como uma Series com os valores de cada coluna.
 df.loc[2]
 
